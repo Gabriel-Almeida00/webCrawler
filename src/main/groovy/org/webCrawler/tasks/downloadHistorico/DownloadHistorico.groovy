@@ -12,6 +12,7 @@ class DownloadHistorico {
     private static final String DOWNLOAD_PATH = 'downloads/Historico/Historico.txt'
     private static final String COMPETENCE_START_DATE = 'jan/2016'
 
+
     void downloadHistorico() {
         Document page = carregarPagina(BASE_URL)
 
